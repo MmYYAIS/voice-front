@@ -307,7 +307,7 @@ const signature = urlParams.get('signature') ?? '';
           <div className="inline-block w-4 h-7 ml-2 align-middle bg-dark/40 animate-blink" />
         </h1>
         <div className="mt-4 flex justify-center lg:px-2">
-          <a href="https://yongmai.xyz" target="_blank">
+          <a href="https://yongmai.xyz/audio/" target="_blank">
             <ExternalLink strokeWidth={1} />
           </a>
         </div>
