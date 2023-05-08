@@ -77,7 +77,12 @@ const signature = urlParams.get('signature') ?? '';
     const responseJson = await auth.json();
     if (responseJson.code !== 0) window.location.href = 'https://yongmai.xyz/myvip';
   }
-  checkCurrentAuth();  
+checkCurrentAuth();
+  function refreshPage() {
+  window.location.reload();
+}
+// Refresh the page every 12 hours
+setTimeout(refreshPage, 43200000); 
   
   const {
     browserSupportsSpeechRecognition,
